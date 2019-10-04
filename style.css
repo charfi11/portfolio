@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'ma-font';
+}
+
+@font-face {
+    font-family: 'ma-font';
+    src: url('OptimusPrinceps.ttf');
+}
+
+.parallax-window {
+    min-height: 100vh;
+    background: transparent;
+}
+
+.first {
+    position: absolute;
+}
+
+.firstexp {
+    display: none;
+}
+
+.title {
+    height: 20em;
+    padding-top: 70%;
+    background: rgba(0,0,0,0.3);
+    color: white;
+}
+
+.title h1 {
+    padding: 1%;
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
+.profil {
+    float: right;
+    margin-top: 20%;
+    width: 10%;
+}
+
+.profil img {
+    width: 80%;
+}
+
+.card {
+    display: none;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    cursor: pointer;
+}
+
+nav {
+    margin-left: 15%;
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+}
+
+.navbar {
+    display: none;
+    margin: 0;
+}
+
+ul li {
+    display: inline;
+    color: white;
+    cursor: pointer;
+}
+
+li {
+    margin-left: 5%;
+}
+
+li:hover {
+    background: rgba(0,0,0,0.3);
+}
+
+.checked {
+    color: orange;
+    animation-name: rotateIn;
+    animation-duration: 2s;
+  }
+
+.exp {
+   color: white;
+  }
+
+.portfolio img  {
+  width: 37%;
+  margin-top: 8%;
+  cursor: pointer;
+  animation-name: rotateIn;
+  animation-duration: 1.5s;
+  }
+
+  .desc {
+      width: 20%;
+      position: absolute;
+      margin-top: 16%;
+      margin-left: 24%;
+      color: white;
+      background: rgba(0,0,0,0.6);
+  }
+
+  .desc p {
+      padding: 4%;
+  }
+
+  .carddesc {
+      display: none;
+  }
+
+  .carddescsecond {
+     display: none;
+  }
+/* 
+  .carddescthird {
+      display: none;
+  }
+
+  .carddescfourth {
+      display: none;
+  } */
