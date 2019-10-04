@@ -47,9 +47,27 @@ $(".port").click(function() {
 $('.firstportimg').mouseover(function(){
    $('.carddesc').show('slow');
    $('.carddescsecond').hide();
+   $('.carddescfourth').hide();
+   $('.carddescthird').hide();
 });
 
 $('.secondportimg').mouseover(function(){
     $('.carddescsecond').show('slow');
     $('.carddesc').hide();
+    $('.carddescthird').hide();
+    $('.carddescfourth').hide();
+ });
+
+ $('.thirdportimg').mouseover(function(){
+    $('.carddescthird').show('slow');
+    $('.carddesc').hide();
+    $('.carddescsecond').hide();
+    $('.carddescfourth').hide();
+ });
+
+ $('.fourthportimg').mouseover(function(){
+    $('.carddescfourth').show('slow');
+    $('.carddesc').hide();
+    $('.carddescsecond').hide();
+    $('.carddescthird').hide();
  });
