@@ -1,0 +1,76 @@
+@media screen and (max-width: 500px){
+    .fontmenu{
+        display: block;
+    }
+    .title{
+       height: 10em;
+       padding: 5%;
+    }
+   .card {
+       display: none!important;
+   } 
+   .navbar {
+       display: none!important;
+   }
+   .firstport h2{
+       margin: 2%!important;
+   }
+   .portfolio{
+    margin: 2%!important;
+   }
+   .firstexp h2 {
+       margin: 0!important;
+   }
+   .firstexp h5{
+    font-size: 1em;
+   }
+   .firstportimg{
+       width: 30%!important;
+   }
+   .secondportimg{
+    width: 30%!important;
+}
+.thirdportimg{
+    width: 30%!important;
+}
+.fourthportimg{
+    width: 30%!important;
+}
+ 
+.carddesc {
+    display: none!important;
+}
+
+.carddescsecond {
+    display: none!important;
+}
+
+.carddescthird {
+    display: none!important;
+}
+
+.carddescfourth {
+    display: none!important;
+} 
+}
+
+@media screen and (max-width: 768px){
+    .firstportimg{
+        width: 30%!important;
+    }
+    .secondportimg{
+     width: 30%!important;
+ }
+ .thirdportimg{
+     width: 30%!important;
+ }
+ .fourthportimg{
+     width: 30%!important;
+ }
+ .firstexp h2 {
+    margin: 0!important;
+}
+.firstexp h5{
+ font-size: 1em;
+}
+}

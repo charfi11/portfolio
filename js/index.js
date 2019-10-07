@@ -12,7 +12,7 @@ $(window).scroll(function() {
 });
 
 $(window).scroll(function() {
-    if ($(document).scrollTop() > 1000) {
+    if ($(document).scrollTop() > 800) {
         $('.firstport').show('slow');
     }
     else {
@@ -71,3 +71,13 @@ $('.secondportimg').mouseover(function(){
     $('.carddescsecond').hide();
     $('.carddescthird').hide();
  });
+
+ $('.profil').click(function(){
+     $('.othermenu').slideToggle('slow');
+     $('.profil').hide();
+ })
+
+ $('.othermenu').click(function(){
+     $('.profil').show('slow');
+     $('.othermenu').hide();
+ })
